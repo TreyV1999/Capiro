@@ -11017,7 +11017,6 @@ header.masthead h1, header.masthead .h1 {
   padding: 10px;
   border: 8px solid #0D396B; /* Dark blue border */
   display: inline-block;
-  border-radius: 50px;
 }
 
 .border-bottom-only {
@@ -11049,8 +11048,7 @@ header.masthead h1, header.masthead .h1 {
 .contact-photo-frame img {
   width: 440px;          /* Controls width */
   height: 440px;         /* Ensures square shape */
-  object-fit: cover;     /* Crops image to fill square without distortion */
-  border-radius: 8px;    /* Optional: Rounded corners */
+  object-fit: cover;     /* Crops image to fill square without distortion */   /* Optional: Rounded corners */
 }
 
 /* --------------------- */
@@ -11236,8 +11234,8 @@ color: black
 
 /* Contact Section Styles */
 .contact-photo {
-  width: 180px;
-  border-radius: 1rem;
+  width: 180px;          /* Controls width */
+  height: 440px; 
 }
 
 .contact-info {

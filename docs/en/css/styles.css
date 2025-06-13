@@ -8064,7 +8064,7 @@ textarea.form-control-lg {
 
 .text-warning {
   --bs-text-opacity: 1;
-  font-size: 2rem; /* Adjust this value as needed */
+  font-size: 1.5rem; /* Adjust this value as needed */
   color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
 }
 

@@ -18,16 +18,23 @@
     }
     #lang-box {
       text-align: center;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       background: white;
+      width: 80%;
+      max-width: 500px;
+    }
+    #lang-box h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
     }
     #lang-box button {
-      margin: 0.5rem;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
       cursor: pointer;
+      min-width: 150px;
     }
   </style>
 </head>
@@ -45,7 +52,7 @@
   <script>
     const go = (lang) => {
       localStorage.setItem('siteLang', lang);
-      // jump into the chosen folder’s index.html
+      // jump into the chosen folder's index.html
       window.location.href = `./${lang}/index.html`;
     };
 
